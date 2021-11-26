@@ -1,6 +1,6 @@
 from functools import wraps
 from inspect import getfullargspec, ismethod, isawaitable
-from ._infrastructure.adapters import get_todos_from_api_with_requests, persist_todo_as_csv_with_dict_csv
+from ._infrastructure.adapters import get_todos_from_api_with_http_client, persist_todo_as_csv_with_dict_csv
 
 def _injection(contents):
     def inject(func):
@@ -27,7 +27,7 @@ def _injection(contents):
 
 def _container():
     contents = {
-        "get_todos_from_api": get_todos_from_api_with_requests,
+        "get_todos_from_api": get_todos_from_api_with_http_client,
         "persist_todo_as_csv": persist_todo_as_csv_with_dict_csv
     }
 
