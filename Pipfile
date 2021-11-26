@@ -9,6 +9,10 @@ name = "pypi"
 pytest = "*"
 todo = {editable = true, path = "."}
 mypy = "*"
+radon = "*"
+pynocle = "*"
+cohesion = "*"
+pydeps = "*"
 
 [requires]
 python_version = "3.10"
