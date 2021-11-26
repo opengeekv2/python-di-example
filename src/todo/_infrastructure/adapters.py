@@ -1,4 +1,4 @@
-from typing import List, NamedTuple
+from typing import List
 from .._model import ToDo
 from http.client import HTTPSConnection
 import json
@@ -35,5 +35,6 @@ def persist_todo_as_csv_with_dict_csv(todo: ToDo) -> bool:
             dw.writeheader()
             dw.writerow(todo_dict)
         return True
-    except:
+    except BaseException as ex:
+        print(ex)
         return False

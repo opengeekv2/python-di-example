@@ -1,4 +1,9 @@
-from ._infrastructure.command_interface import run_as_command
+from ._services import *
+from .inject import inject
+
+@inject
+def main(run):
+    run()
 
 if __name__ == '__main__':
-    run_as_command()
+    main()
