@@ -1,5 +1,5 @@
 from ._services import *
-from .inject import inject
+from .di import inject
 
 @inject
 def main(run):
