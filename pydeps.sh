@@ -1,1 +1,1 @@
-pydeps --pylib --reverse --rankdir=BT src/todo --cluster --rmprefix=todo. -xx=todo._infrastructure
+pydeps --pylib --reverse --rankdir=RL src/todo --cluster --rmprefix=todo. -xx=todo._infrastructure

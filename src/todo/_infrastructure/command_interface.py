@@ -1,7 +1,8 @@
 import sys
-from .._use_cases import persist_api_todos_as_csv
+from ..di import inject 
 
-def run_as_command() -> None:
+@inject
+def run_as_command(persist_api_todos_as_csv) -> None:
     result = persist_api_todos_as_csv()
     if result:
         sys.exit(0)

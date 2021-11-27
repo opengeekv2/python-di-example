@@ -34,6 +34,7 @@ def createContainer():
         
         return dec_inject
     return container
+
 if not 'container' in locals():
     container = createContainer()
 inject = container()
