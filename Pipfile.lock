@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "4bf3f8c97b3e16ceb3992ad36b0dc66ca9921e8bcbc014e06385e72689cc29fe"
+            "sha256": "68ae2a877a0061f5ba08631ee45dd2700657165f1b5af8511377f13145e08b4e"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -466,10 +466,6 @@
                 "sha256:a1e503719720d71e2ed70ed809b385c60cd3fb555ba7ec046b96360d30b16d9f"
             ],
             "version": "==0.8.0"
-        },
-        "todo": {
-            "editable": true,
-            "path": "."
         },
         "toml": {
             "hashes": [
