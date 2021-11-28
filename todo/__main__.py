@@ -1,5 +1,5 @@
 from ._infrastructure._services import *
-from .di import inject
+from bite_di import inject
 
 @inject
 def main(run):

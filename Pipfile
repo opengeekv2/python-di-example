@@ -4,6 +4,7 @@ verify_ssl = true
 name = "pypi"
 
 [packages]
+bite-di = {ref = "main", git = "https://github.com/opengeekv2/bite_di.git"}
 
 [dev-packages]
 pytest = "*"

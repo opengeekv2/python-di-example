@@ -1,7 +1,7 @@
 {
     "_meta": {
         "hash": {
-            "sha256": "68ae2a877a0061f5ba08631ee45dd2700657165f1b5af8511377f13145e08b4e"
+            "sha256": "c32e028d63fe6045f9130a617c7cc7ddb527ff80fe65e7175ba950a62cfaf07e"
         },
         "pipfile-spec": 6,
         "requires": {
@@ -15,7 +15,12 @@
             }
         ]
     },
-    "default": {},
+    "default": {
+        "bite-di": {
+            "git": "https://github.com/opengeekv2/bite_di.git",
+            "ref": "788d9ed2fd173f89ca7863b2cf8737b2b277ecc6"
+        }
+    },
     "develop": {
         "attrs": {
             "hashes": [

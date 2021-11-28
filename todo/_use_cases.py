@@ -1,5 +1,5 @@
 from typing import Callable, Iterable 
-from .di import inject
+from bite_di import inject
 from ._model import ToDo
 
 @inject

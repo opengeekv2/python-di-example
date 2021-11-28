@@ -1,0 +1,10 @@
+Component,Instability,Abstractness,Distance
+todo,0.0,0,1.0
+todo.__main__,1.0,0,0.0
+todo._services,0.8,0,0.19999999999999996
+todo.inject,0.0,0,1.0
+todo._model,0.0,0.0,1.0
+todo._use_cases,0.6666666666666666,0,0.33333333333333337
+todo._infrastructure,0.0,0,1.0
+todo._infrastructure.adapters,0.5,0,0.5
+todo._infrastructure.command_interface,0.5,0,0.5

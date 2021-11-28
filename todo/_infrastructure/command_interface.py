@@ -1,5 +1,5 @@
 import sys
-from ..di import inject 
+from bite_di import inject 
 
 @inject
 def run_as_command(persist_api_todos_as_csv) -> None:
