@@ -1,8 +1,7 @@
-from ._infrastructure._services import *
-from bite_di import inject
+import todo._infrastructure
+from todo.core import right_ports
 
-@inject
-def main(run):
+def main(run = right_ports.run):
     run()
 
 if __name__ == '__main__':
